@@ -86,6 +86,7 @@ h1 {
     height: 70px;
     margin: 5px;
     color: white;
+    border-radius: 12px;
     background-color: rgb(53, 8, 101);
 }
 .day,.hour,.mins,.sec{

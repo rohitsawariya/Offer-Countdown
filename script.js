@@ -6,7 +6,7 @@ const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
 
 ////////////////// TO Select a Last Date //////////////////
-var countDownDate = new Date(2024,1,25,12,0,0);
+var countDownDate = new Date(2024,2,10,12,0,0);
 
     let year = countDownDate.getFullYear();
     let month = months[countDownDate.getMonth()];
@@ -49,7 +49,8 @@ const values = [days, hours, minutes, seconds];
 
 if(restOfTime<0){
     clearInterval(countDown)
-    deadline.innerHTML = `<h4 class="expired">sorry, this offer has expired</h4>`;
+    deadline.innerHTML = `<h4 style="font-size:40px; color:black; border-bottom: 4px solid black; font-family: 'Arial, sans-serif';" class="expired">Sorry, this offer has expired</h4>`;
+
 }
 
 }
